@@ -11,7 +11,6 @@ Nicht verwendete Variablen und dessen Funktionen sind ausgeklammert und werden a
 
 Alle Daten beziehen sich auf die vom Youtube Kanal Hashlips bezogenen Files auf Github und deren Lizensierung.
 
-Quellen:
-
-https://github.com/HashLips/hashlips_art_engine
+Quellen: <br>
+https://github.com/HashLips/hashlips_art_engine <br>
 https://github.com/rfuchs94/NFT-Implementierung/blob/main/LICENSE
