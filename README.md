@@ -14,3 +14,4 @@ Alle Daten beziehen sich auf die vom Youtube Kanal Hashlips bezogenen Files auf 
 
 Quellen:
 https://github.com/HashLips/hashlips_art_engine
+https://github.com/rfuchs94/NFT-Implementierung/blob/main/LICENSE
