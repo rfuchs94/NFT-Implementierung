@@ -5,7 +5,7 @@ Der Pretest dient innerhalb des Engineering Design Prozesses die Lösungsansätz
 
 Die Art Engine vom Github Repository von Hashlips (2022) ermöglicht die Erstellung der NFTs mit mehreren Möglichkeiten.
 In diesem Pretest beschränkt sich die Durchführung auf die Verwendung des Testsatzes an Bildern zur Erstellung der Bilder und Metadaten des NFTs.
-Der Pretest umfasst 5 erstellte Bilder.
+Der Pretest umfasst 5 erstellte Bilder und die dazugehörigen Metadaten.
 
 Im const.js File werden die verschiedenen Variablen und dessen Funktion zur Ausführung kurz beschrieben anhand der Möglichkeiten bei der Konfiguration.
 Nicht verwendete Variablen und dessen Funktionen sind ausgeklammert und werden als weitere Möglichkeit der Erstellung kurz erläutert.
