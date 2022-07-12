@@ -15,6 +15,11 @@ Für die Durchführung wurde die aktuelle Version von node.js sowie NPM und Yarn
 
 Die Implementierung beschränkt sich auf die Anwendung und Erläuterung der Funktionen in den Kommentaren und ist keine eigene Erstellung. Die Umsetzung dient der Anwendung bestehender Programme im Rahmen der Bachelor Thesis als Bestandteil der Referenzimplementierung.
 
+
+Im Rahmen des Pretests wurden mit der Ausführung der Hashlips Art Engine folgende Bilder erstellt: 
+
+[Pretest Bilder]https://github.com/rfuchs94/NFT-Implementierung/tree/main/Art%20Engine/build/images
+
 Quellen: <br>
 https://github.com/HashLips/hashlips_art_engine <br>
 https://github.com/rfuchs94/NFT-Implementierung/blob/main/LICENSE
