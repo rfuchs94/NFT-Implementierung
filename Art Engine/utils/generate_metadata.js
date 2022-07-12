@@ -61,6 +61,7 @@ const draw = (_imgObject) => {
   ctx.drawImage(_imgObject.loadedImage, 0, 0, w, h);
 };
 
+
 const addRarity = () => {
   let w = canvas.width;
   let h = canvas.height;
@@ -116,6 +117,9 @@ const addRarity = () => {
   ];
 };
 
+/*Mit dieser Funktion wird eine Zufallszahl generiert zwischen der minimalen und maximalen Anzahl bei der Generierung der Metadaten.
+Die Funktion Math.floor beginnt jeweils bei 0 zu zählen während random die Zufallszahl im gewählten Bereich ausführt*/
+
 randomIntFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
@@ -128,6 +132,7 @@ isNeighborColor = (color1, color2, tolerance) => {
   );
 };
 
+//Hier werden die einzelnen Daten der Attribute aufgrund des Bildnamens gespeichert in den neuen Bildern 
 const saveMetadata = (_loadedImageObject) => {
   let shortName = _loadedImageObject.imgObject.filename.replace(
     /\.[^/.]+$/,
@@ -156,16 +161,17 @@ const writeMetaData = (_data) => {
   fs.writeFileSync(`${buildDir}/_metadata.json`, _data);
 };
 
+// Die Ausführung speichert die Metadaten der Bilder der einzelnen Layer (NPM start generate)
 const startCreating = async () => {
-  const images = getImages(inputDir);
+  const images = getImages(inputDir); // Prüft input Ordner der Bilder
   if (images == null) {
-    console.log("Please generate collection first.");
+    console.log("Please generate collection first."); //Falls keine Bilder generiert wurden wird dies ausgegeben
     return;
   }
   let loadedImageObjects = [];
   images.forEach((imgObject) => {
-    loadedImageObjects.push(loadImgData(imgObject));
-  });
+    loadedImageObjects.push(loadImgData(imgObject)); //Iteration und Laden der Bilder
+  }); //wenn die Bilder erstellt / geladen wurden 
   await Promise.all(loadedImageObjects).then((loadedImageObjectArray) => {
     loadedImageObjectArray.forEach((loadedImageObject) => {
       draw(loadedImageObject);
