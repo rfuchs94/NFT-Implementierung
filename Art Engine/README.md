@@ -24,6 +24,11 @@ Im Rahmen des Pretests wurden mit der Ausführung der Hashlips Art Engine folgen
 
 
 ![0.png](build/images/0.png)
+
+
+
+Zugehörige Metadaten der Bilddatei
+
 ```json
 {
   "name": "rf test #0",
