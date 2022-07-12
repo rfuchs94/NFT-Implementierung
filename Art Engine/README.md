@@ -11,7 +11,7 @@ Im const.js File werden die verschiedenen Variablen und dessen Funktion zur Ausf
 Nicht verwendete Variablen und dessen Funktionen sind ausgeklammert und werden als weitere Möglichkeit der Erstellung kurz erläutert.
 
 Alle Daten beziehen sich auf die vom Youtube Kanal Hashlips (2022) bezogenen Files auf Github und deren für die in diesem Projektrahmen geeignete Lizensierung von Hashlips (2021).
-Für die Durchführung wurde die aktuelle Version von node.js sowie NPM und Yarn installiert (siehe Original Anleitung in der Datei Readmevon Hashlips (Botha, 2022))
+Für die Durchführung wurde die aktuelle Version von node.js sowie NPM und Yarn installiert siehe [a relative link](README_Hashlips Art Engine.md) von Botha (2022).
 
 Quellen: <br>
 https://github.com/HashLips/hashlips_art_engine <br>
