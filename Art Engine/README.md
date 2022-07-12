@@ -22,8 +22,8 @@ Im Rahmen des Pretests wurden mit der Ausführung der Hashlips Art Engine folgen
 
 [Pretest Bilder](https://github.com/rfuchs94/NFT-Implementierung/tree/main/Art%20Engine/build/images)
 
-Beispiel Bild:
-![Bild](build/images/0.png)
+
+![0.png](build/images/0.png)
 
 
 
