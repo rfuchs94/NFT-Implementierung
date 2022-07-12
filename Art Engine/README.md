@@ -21,7 +21,7 @@ Die Implementierung beschränkt sich auf die Anwendung und Erläuterung der Funk
 Im Rahmen des Pretests wurden mit der Ausführung der Hashlips Art Engine folgende 5 Bilder und Metadaten generiert: 
 
 [Pretest Bilder](https://github.com/rfuchs94/NFT-Implementierung/tree/main/Art%20Engine/build/images)
-
+[Pretest Metadaten]([https://github.com/rfuchs94/NFT-Implementierung/tree/main/Art%20Engine/build/images](https://github.com/rfuchs94/NFT-Implementierung/tree/main/Art%20Engine/build/json)
 
 ![0.png](build/images/0.png)
 
