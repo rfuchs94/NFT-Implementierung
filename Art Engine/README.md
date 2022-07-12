@@ -23,6 +23,18 @@ Im Rahmen des Pretests wurden mit der Ausführung der Hashlips Art Engine folgen
 Beispiel Bild:
 [0.png](https://github.com/rfuchs94/NFT-Implementierung/blob/main/Art%20Engine/build/images/0.png)
 
+
+
+
+
+
+
+
+
+
+
+
+
 Quellen: <br>
 https://github.com/HashLips/hashlips_art_engine <br>
 https://github.com/rfuchs94/NFT-Implementierung/blob/main/LICENSE
