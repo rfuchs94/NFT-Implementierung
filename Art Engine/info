@@ -1,0 +1,46 @@
+Wrote new keypair to ~/.config/solana/devnet.json
+changed to C:\.config\solana\devnet.json
+======================================================================
+pubkey: 6XqGqTfGKJNKuqhLW9bt93LT5684gZoCY45n4PtXGyGX
+======================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+again job assist lion unable actual seat verb autumn trust truth climb
+======================================================================
+
+
+creating candy machine on v2:
+C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\js>ts-node "C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\js\packages\cli\src\candy-machine-v2-cli.ts" upload -e devnet -k C:\.config\solana\devnet.json -cp "C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\js\packages\cli\example-candy-machine-upload-config.json" "C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\assets"
+wallet public key: 6XqGqTfGKJNKuqhLW9bt93LT5684gZoCY45n4PtXGyGX
+Using cluster devnet
+WARNING: On Devnet, the arweave-sol storage option only stores your files for 1 week. Please upload via Mainnet Beta for your final collection.
+
+Beginning the upload for 5 (img+json) pairs
+started at: 1654010110762
+initializing candy machine
+Candy machine address:  E2LPhibLQ3kNyXMynxWqoBQJsZEuunjLE2yMYLnsDtsg
+Collection metadata address:  3jFKJL719LyoFfeWposfjexMWju5HukxsKRudmpnTyc3
+Collection metadata authority:  6XqGqTfGKJNKuqhLW9bt93LT5684gZoCY45n4PtXGyGX
+Collection master edition address:  8rtshrc7qMxW68MXDWXWYgHqZc4NSMqepQ86FSpMyMwq
+Collection mint address:  3dMsCKwwriiF6cgSoiv2qCERicCoXmXC6Ka5wpAhngdS
+Collection PDA address:  4z8RB4myUTKDPHnQvbaTFH37quET2grBRyWw2vwtdH8U
+Collection authority record address:  DNcnwTrcygDJDoPcAJRbYUU2idQWDJRczQGqxpb1qJHF
+Collection:  {
+  collectionMetadata: '3jFKJL719LyoFfeWposfjexMWju5HukxsKRudmpnTyc3',
+  collectionPDA: '4z8RB4myUTKDPHnQvbaTFH37quET2grBRyWw2vwtdH8U',
+  txId: '5yzEpfwkoiYyQYr5ahzXQSGM5jNDKamSkAtnWfGNifNPVBc5EeVu6aLaGEJzpNcLFCxgKixBVXF8wYWZAvPr2qMA'
+}
+initialized config for a candy machine with publickey: E2LPhibLQ3kNyXMynxWqoBQJsZEuunjLE2yMYLnsDtsg
+
+
+
+
+
+C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\js>ts-node "C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\js\packages\cli\src\candy-machine-v2-cli.ts" update_candy_machine -e devnet -k C:\.config\solana\devnet.json -cp "C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\js\packages\cli\example-candy-machine-upload-config.json" "C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\assets"
+wallet public key: 6XqGqTfGKJNKuqhLW9bt93LT5684gZoCY45n4PtXGyGX
+Using cluster devnet
+WARNING: On Devnet, the arweave-sol storage option only stores your files for 1 week. Please upload via Mainnet Beta for your final collection.
+
+da die Zeit nicht richtig hinterlegt wurde muss die Candy Machine upgedated werden
+
+Candy Machine wurde im Anschluss bestätigt mit einer Bestätigung wie hier:
+update_candy_machine finished 2zT344ZjS5FSJFsZRYE7Yu7Fg9sBtDQESSzPv1kNGezP7Mx8vDbf8geDQGvC3iMdbfo2GWCdPrZbsq58ZwmQ8136
