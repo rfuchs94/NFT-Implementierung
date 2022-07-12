@@ -1,6 +1,8 @@
 # NFT-Implementierung
 Erstellung der Bilder und Metadaten für die Test NFT Kollektion unter der Anwendung der Art Engine von Hashlips (2022) sowie der Implementierung auf der Solana Blockchain mit der Candy Machine v2  von Metaplex (2022).
 
+
+Pretest Bild Generierung
 Der Pretest dient innerhalb des Engineering Design Prozesses die Lösungsansätze für die Problemstellung auszuprobieren und wurde als erster Versuch ausgeführt.
 
 Die Art Engine vom Github Repository von Hashlips (2022) ermöglicht die Erstellung der NFTs mit mehreren Möglichkeiten.
@@ -21,7 +23,7 @@ Im Rahmen des Pretests wurden mit der Ausführung der Hashlips Art Engine folgen
 ![Pretest Bilder](https://github.com/rfuchs94/NFT-Implementierung/tree/main/Art%20Engine/build/images)
 
 Beispiel Bild:
-[0.png](https://github.com/rfuchs94/NFT-Implementierung/blob/main/Art%20Engine/build/images/0.png)
+[Bild](build/images/0.png)
 
 
 
