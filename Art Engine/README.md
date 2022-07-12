@@ -11,8 +11,7 @@ Im const.js File werden die verschiedenen Variablen und dessen Funktion zur Ausf
 Nicht verwendete Variablen und dessen Funktionen sind ausgeklammert und werden als weitere Möglichkeit der Erstellung kurz erläutert.
 
 Alle Daten beziehen sich auf die vom Youtube Kanal Hashlips (2022) bezogenen Files auf Github und deren für die in diesem Projektrahmen geeignete Lizensierung von Hashlips (2021).
-<<<<<<< HEAD
-=======
+
 Für die Durchführung wurde die aktuelle Version von node.js sowie NPM und Yarn installiert siehe Datei [README_Hashlips Art Engine](https://github.com/rfuchs94/NFT-Implementierung/blob/main/Art%20Engine/README_Hashlips%20Art%20Engine.md) von Botha (2022) für die detaillierte Anleitung.
 
 Die Implementierung beschränkt sich auf die Anwendung und Erläuterung der Funktionen in den Kommentaren und ist keine eigene Erstellung. Die Umsetzung dient der Anwendung bestehender Programme im Rahmen der Bachelor Thesis als Bestandteil der Referenzimplementierung.
