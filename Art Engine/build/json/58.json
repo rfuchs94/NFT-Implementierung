@@ -1,0 +1,43 @@
+{
+  "name": "Smart Foxes #58",
+  "symbol": "SF",
+  "description": "99 Foxes explore the space of web 3.0",
+  "seller_fee_basis_points": 700,
+  "image": "58.png",
+  "external_url": "https://twitter.com/FoxesSmart",
+  "edition": 58,
+  "creator": "Robin Fuchs",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Mintgreen"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Fox Common"
+    },
+    {
+      "trait_type": "Initials",
+      "value": "RF Black"
+    },
+    {
+      "trait_type": "Message",
+      "value": "DDS"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "58.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6XqGqTfGKJNKuqhLW9bt93LT5684gZoCY45n4PtXGyGX",
+        "share": 100
+      }
+    ]
+  }
+}
