@@ -24,6 +24,26 @@ Im Rahmen des Pretests wurden mit der Ausführung der Hashlips Art Engine folgen
 
 
 ![0.png](build/images/0.png)
+```json
+{
+  "dna": "d956cdf4e460508b5ff90c21974124f68d6edc34",
+  "name": "#1",
+  "description": "This is the description of your NFT project",
+  "image": "https://hashlips/nft/1.png",
+  "edition": 1,
+  "date": 1731990799975,
+  "attributes": [
+    { "trait_type": "Background", "value": "Black" },
+    { "trait_type": "Eyeball", "value": "Red" },
+    { "trait_type": "Eye color", "value": "Yellow" },
+    { "trait_type": "Iris", "value": "Small" },
+    { "trait_type": "Shine", "value": "Shapes" },
+    { "trait_type": "Bottom lid", "value": "Low" },
+    { "trait_type": "Top lid", "value": "Middle" }
+  ],
+  "compiler": "HashLips Art Engine"
+}
+```
 
 
 
