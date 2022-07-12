@@ -26,22 +26,58 @@ Im Rahmen des Pretests wurden mit der Ausführung der Hashlips Art Engine folgen
 ![0.png](build/images/0.png)
 ```json
 {
-  "dna": "d956cdf4e460508b5ff90c21974124f68d6edc34",
-  "name": "#1",
-  "description": "This is the description of your NFT project",
-  "image": "https://hashlips/nft/1.png",
-  "edition": 1,
-  "date": 1731990799975,
+  "name": "rf test #0",
+  "symbol": "RF",
+  "description": "thats a test",
+  "seller_fee_basis_points": 700,
+  "image": "0.png",
+  "external_url": "https://www.youtube.com/c/hashlipsnft",
+  "edition": 0,
   "attributes": [
-    { "trait_type": "Background", "value": "Black" },
-    { "trait_type": "Eyeball", "value": "Red" },
-    { "trait_type": "Eye color", "value": "Yellow" },
-    { "trait_type": "Iris", "value": "Small" },
-    { "trait_type": "Shine", "value": "Shapes" },
-    { "trait_type": "Bottom lid", "value": "Low" },
-    { "trait_type": "Top lid", "value": "Middle" }
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyeball",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Eye color",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Iris",
+      "value": "Small"
+    },
+    {
+      "trait_type": "Shine",
+      "value": "Shapes"
+    },
+    {
+      "trait_type": "Bottom lid",
+      "value": "Middle"
+    },
+    {
+      "trait_type": "Top lid",
+      "value": "Low"
+    }
   ],
-  "compiler": "HashLips Art Engine"
+  "properties": {
+    "files": [
+      {
+        "uri": "0.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+        "share": 100
+      }
+    ]
+  }
 }
 ```
 
