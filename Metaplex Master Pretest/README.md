@@ -14,7 +14,14 @@ ts-node: TypeScript execution environment
 
 Zur Anwendung ist es notwendig die Candy Machine im const.js File zu konfigurieren wie folgt:
 
+Clone the repo, and run `yarn start` to deploy.
 
+```bash
+$ git clone https://github.com/metaplex-foundation/metaplex.git
+$ cd metaplex/js
+$ yarn install && yarn bootstrap && yarn build
+$ yarn start
+```
 
 
 Nach der entsprechenden Konfiguration kann folgender Befehl ausgeführt werden für das Deployment auf der Blockchain:
