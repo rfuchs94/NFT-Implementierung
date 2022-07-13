@@ -1,7 +1,8 @@
-# NFT-Implementierung
-Erstellung der Bilder und Metadaten für die Test NFT Kollektion unter der Anwendung der Art Engine von Hashlips (2022) sowie der Implementierung auf der Solana Blockchain mit der Candy Machine v2  von Metaplex (2022).
+# NFT Bildgenerierung
+Erstellung der Bilder und Metadaten für die Smart Foxes Collection als Referenzimplementierung unter der Anwendung der Art Engine von Hashlips (Botha, 2022).
 
-Der Pretest dient innerhalb des Engineering Design Prozesses die Lösungsansätze für die Problemstellung auszuprobieren und wurde als erster Versuch ausgeführt.
+Zuerst wurde aufgrund eines Testsets eine erste Kollektion an 5 NFT Bildern generiert.
+In dieser Version wurde eine eigene Kollektion an 99 Smart Foxes aus verschiedenen Bildebenen und Merkmalen erstellt.
 
 Die Art Engine vom Github Repository von Hashlips (2022) ermöglicht die Erstellung der NFTs mit mehreren Möglichkeiten.
 In diesem Pretest beschränkt sich die Durchführung auf die Verwendung des Testsatzes an Bildern zur Erstellung der Bilder und Metadaten des NFTs.
