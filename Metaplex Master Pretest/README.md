@@ -49,16 +49,19 @@ ts-node ~\src\candy-machine-v2-cli.ts upload
 Sobald der Smart Contract generiert wurde mit der Candy Machine V2 kann eine Mint Page mit der Candy Machine ui aufgerufen werden mit der folgenden Konfiguration:
 
 ```env
-REACT_APP_CANDY_MACHINE_ID=PFFAeSJuuvkREsEAUXy3NFT884FTuW4QR9NL6a7D7fR
+EACT_APP_CANDY_MACHINE_ID=F9HoCNmzHadoPMgB4bfPzqJ2zbEFByVPATH3tZV65FUk
 
-REACT_APP_SOLANA_NETWORK=devnet
-REACT_APP_SOLANA_RPC_HOST=https://metaplex.devnet.rpcpool.com/
+REACT_APP_SOLANA_NETWORK=mainnet-beta
+REACT_APP_SOLANA_RPC_HOST=https://ssc-dao.genesysgo.net/
 SKIP_PREFLIGHT_CHECK=true
-```
 
+```
 Zum Start des Programmes wird folgender Befehl ausgeführt:
 ```shell
 yarn start
 ```
+
+Der Mint wurde anschliessend in einem separaten Repo als Public Mint gehostet über 4EVERLAND unter dieser Domain: [Mint Page der Smart Fox Collection](https://mint-hosting-plpzdw7y-rfuchs94.4everland.app/)
+Repository: 
 
 Quelle: https://docs.metaplex.com/candy-machine-v2/getting-started
