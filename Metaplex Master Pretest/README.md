@@ -1,6 +1,6 @@
-## NFT Deployment Pretest
+## NFT Deployment Mainnet Solana
 
-Innerhalb diesem Deployment wurden die generierten Assets aus dem Pretest auf dem Devnet von Solana angelegt.
+Innerhalb diesem Deployment wird die Smart Foxes Collection auf dem Mainnet von Solana angelegt.
 Die Erstellung und Mint erfolgten mit der Candymachine v2 und den Dateien von Metaplex (2022).
 Die Anwendung erfolgte alleine aufgrund der Ausführung der bestehenden Projekte und werden aufgrund dessen Lizenzrechte genutzt.
 
@@ -16,27 +16,25 @@ ts-node: TypeScript execution environment
 Zur Anwendung ist es notwendig die Candy Machine im upload-config.js File zu konfigurieren wie im folgenden Beispiel:
 
 ```json
-{
+  {
   "price": 0.01,
-  "number": 10000,
-  "gatekeeper": {
-    "gatekeeperNetwork": "ignREusXmGrscGNUesoU9mxfds9AiYTezUKex2PsZV6",
-    "expireOnUse": true
-  },
-  "solTreasuryAccount": null,
+  "number": 99,
+  "gatekeeper": null,
+  "solTreasuryAccount": "6XqGqTfGKJNKuqhLW9bt93LT5684gZoCY45n4PtXGyGX",
   "splTokenAccount": null,
   "splToken": null,
-  "goLiveDate": "11 Dec 2021 13:00:00 CST",
+  "goLiveDate": "23 May 2022 20:45:00 GMT",
   "endSettings": null,
   "whitelistMintSettings": null,
   "hiddenSettings": null,
-  "storage": "arweave",
+  "storage": "arweave-sol",
   "ipfsInfuraProjectId": null,
   "ipfsInfuraSecret": null,
   "awsS3Bucket": null,
+  "nftStorageKey": null,
   "noRetainAuthority": false,
   "noMutable": false
-}
+  }
 ```
 
 Nach der entsprechenden Konfiguration kann folgender Befehl ausgeführt werden für das Deployment auf der Blockchain wie in folgendem Beispiel:
