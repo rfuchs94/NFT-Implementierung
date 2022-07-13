@@ -42,5 +42,9 @@ Zur Anwendung ist es notwendig die Candy Machine im const.js File zu konfigurier
 Nach der entsprechenden Konfiguration kann folgender Befehl ausgeführt werden für das Deployment auf der Blockchain wie in folgendem Beispiel:
 
 ```shell
-ts-node "C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\js\packages\cli\src\candy-machine-v2-cli.ts" upload -e devnet -k C:\.config\solana\devnet.json -cp "C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\js\packages\cli\example-candy-machine-upload-config.json" "C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\assets"
+ts-node ~\src\candy-machine-v2-cli.ts upload
+-e mainnet-beta --rpc-url https://ssc-dao.genesysgo.net/
+-k C:\.config\solana\keypair.json
+-cp \cli\fox-candy-machine-upload-config.json ~\nft master\metaplex master\assets
+
 ```
