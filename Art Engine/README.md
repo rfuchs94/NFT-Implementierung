@@ -1,7 +1,8 @@
-# NFT-Implementierung
-Erstellung der Bilder und Metadaten für die Test NFT Kollektion unter der Anwendung der Art Engine von Hashlips (2022) sowie der Implementierung auf der Solana Blockchain mit der Candy Machine v2  von Metaplex (2022).
+# NFT Bildgenerierung v2
+Erstellung der Bilder und Metadaten für die Smart Foxes Collection als Referenzimplementierung unter der Anwendung der Art Engine von Hashlips (Botha, 2022).
 
-Der Pretest dient innerhalb des Engineering Design Prozesses die Lösungsansätze für die Problemstellung auszuprobieren und wurde als erster Versuch ausgeführt.
+Zuerst wurde aufgrund eines Testsets eine erste Kollektion an 5 NFT Bildern generiert.
+In dieser Version wurde eine eigene Kollektion an 99 Smart Foxes aus verschiedenen Bildebenen und Merkmalen erstellt.
 
 Die Art Engine vom Github Repository von Hashlips (2022) ermöglicht die Erstellung der NFTs mit mehreren Möglichkeiten.
 In diesem Pretest beschränkt sich die Durchführung auf die Verwendung des Testsatzes an Bildern zur Erstellung der Bilder und Metadaten des NFTs.
@@ -17,10 +18,10 @@ Für die Durchführung wurde die aktuelle Version von node.js sowie NPM und Yarn
 Die Implementierung beschränkt sich auf die Anwendung und Erläuterung der Funktionen in den Kommentaren und ist keine eigene Erstellung. Die Umsetzung dient der Anwendung bestehender Programme im Rahmen der Bachelor Thesis als Bestandteil der Referenzimplementierung.
 
 
-Im Rahmen des Pretests wurden mit der Ausführung der Hashlips Art Engine folgende 5 Bilder und Metadaten generiert: 
+Im Rahmen der eigenen Erstellung wurden mit der Ausführung der Hashlips Art Engine folgende 99 Bilder und desen Metadaten generiert: 
 
-[Pretest Bilder](https://github.com/rfuchs94/NFT-Implementierung/tree/main/Art%20Engine/build/images) </br>
-[Pretest Metadaten](https://github.com/rfuchs94/NFT-Implementierung/tree/main/Art%20Engine/build/json)
+[Smart Foxes Bilder](https://github.com/rfuchs94/NFT-Implementierung/tree/main/Art%20Engine/build/images) </br>
+[Smart Foxes Metadaten](https://github.com/rfuchs94/NFT-Implementierung/tree/main/Art%20Engine/build/json)
 
 ![0.png](build/images/0.png)
 
