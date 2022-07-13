@@ -13,7 +13,7 @@ node: JavaScript runtime
 yarn: package manager to install the required dependencies
 ts-node: TypeScript execution environment
 ```
-Zur Anwendung ist es notwendig die Candy Machine im const.js File zu konfigurieren wie im folgenden Beispiel:
+Zur Anwendung ist es notwendig die Candy Machine im upload-config.js File zu konfigurieren wie im folgenden Beispiel:
 
 ```json
 {
