@@ -7,24 +7,13 @@ Die Anwendung erfolgte alleine aufgrund der Ausführung der bestehenden Projekte
 
 Für die Anwendung werden gemäss Metaplex (2022) die aktuellen Versionen der folgenden Tools benötigt:
 
+```bash
 git: to clone the repository
 node: JavaScript runtime
 yarn: package manager to install the required dependencies
 ts-node: TypeScript execution environment
-
-Zur Anwendung ist es notwendig die Candy Machine im const.js File zu konfigurieren wie folgt:
-
-Clone the repo, and run `yarn start` to deploy.
-
-```bash
-$ git clone https://github.com/metaplex-foundation/metaplex.git
-$ cd metaplex/js
-$ yarn install && yarn bootstrap && yarn build
-$ yarn start
 ```
-
-
-Nach der entsprechenden Konfiguration kann folgender Befehl ausgeführt werden für das Deployment auf der Blockchain:
+Zur Anwendung ist es notwendig die Candy Machine im const.js File zu konfigurieren wie im folgenden Beispiel:
 
 ```json
 {
@@ -48,4 +37,10 @@ Nach der entsprechenden Konfiguration kann folgender Befehl ausgeführt werden f
   "noRetainAuthority": false,
   "noMutable": false
 }
+```
+
+Nach der entsprechenden Konfiguration kann folgender Befehl ausgeführt werden für das Deployment auf der Blockchain wie in folgendem Beispiel:
+
+```shell
+ts-node "C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\js\packages\cli\src\candy-machine-v2-cli.ts" upload -e devnet -k C:\.config\solana\devnet.json -cp "C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\js\packages\cli\example-candy-machine-upload-config.json" "C:\Users\Robin\Documents\HTW Chur\8. Semester\Bachelorarbeit\nft master\metaplex master\assets"
 ```
