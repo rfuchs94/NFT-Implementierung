@@ -48,3 +48,9 @@ ts-node ~\src\candy-machine-v2-cli.ts upload
 -cp \cli\fox-candy-machine-upload-config.json ~\nft master\metaplex master\assets
 
 ```
+Sobald der Smart Contract generiert wurde mit der Candy Machine V2 kann eine Mint Page mit der Candy Machine ui aufgerufen werden über folgenden Befehl:
+
+```shell
+yarn start
+
+```
