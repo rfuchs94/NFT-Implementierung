@@ -5,3 +5,10 @@ Die Erstellung und Mint erfolgten mit der Candymachine v2 und den Dateien von Me
 Die Anwendung erfolgte alleine aufgrund der Ausführung der bestehenden Projekte und werden aufgrund dessen Lizenzrechte genutzt.
 
 
+Für die Anwendung werden gemäss Metaplex (2022) die aktuellen Versionen der folgenden Tools benötigt:
+
+git: to clone the repository
+node: JavaScript runtime
+yarn: package manager to install the required dependencies
+ts-node: TypeScript execution environment
+
