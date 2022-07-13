@@ -62,7 +62,7 @@ yarn start
 ```
 
 Der Mint wurde anschliessend in einem separaten Repo als Public Mint gehostet über 4EVERLAND unter dieser Domain: <br>
-[Mint Page der Smart Fox Collection](https://mint-hosting-plpzdw7y-rfuchs94.4everland.app/) <br>
+[Mint Page der Smart Fox Collection](https://mint-hosting-vh6c5224-rfuchs94.4everland.app/) <br>
 [Repository für das Mint Hosting](https://github.com/rfuchs94/Mint-Hosting)
 
 Quelle: https://docs.metaplex.com/candy-machine-v2/getting-started
