@@ -1,4 +1,4 @@
-##NFT Deployment Pretest
+## NFT Deployment Pretest
 
 Innerhalb diesem Deployment wurden die generierten Assets aus dem Pretest auf dem Devnet von Solana angelegt.
 Die Erstellung und Mint erfolgten mit der Candymachine v2 und den Dateien von Metaplex (2022).
@@ -12,4 +12,11 @@ node: JavaScript runtime
 yarn: package manager to install the required dependencies
 ts-node: TypeScript execution environment
 
-Nach der Konfiguration der Candy Machine v2 wie im folgenden Aufbau gezeigt 
+Zur Anwendung ist es notwendig die Candy Machine im const.js File zu konfigurieren wie folgt:
+
+
+
+
+Nach der entsprechenden Konfiguration kann folgender Befehl ausgeführt werden für das Deployment auf der Blockchain:
+
+
