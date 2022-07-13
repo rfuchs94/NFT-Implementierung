@@ -48,9 +48,19 @@ ts-node ~\src\candy-machine-v2-cli.ts upload
 -cp \cli\fox-candy-machine-upload-config.json ~\nft master\metaplex master\assets
 
 ```
-Sobald der Smart Contract generiert wurde mit der Candy Machine V2 kann eine Mint Page mit der Candy Machine ui aufgerufen werden über folgenden Befehl:
+Sobald der Smart Contract generiert wurde mit der Candy Machine V2 kann eine Mint Page mit der Candy Machine ui aufgerufen werden mit der folgenden Konfiguration:
 
+```env
+REACT_APP_CANDY_MACHINE_ID=PFFAeSJuuvkREsEAUXy3NFT884FTuW4QR9NL6a7D7fR
+
+REACT_APP_SOLANA_NETWORK=devnet
+REACT_APP_SOLANA_RPC_HOST=https://metaplex.devnet.rpcpool.com/
+SKIP_PREFLIGHT_CHECK=true
+```
+
+Zum Start des Programmes wird folgender Befehl ausgeführt:
 ```shell
 yarn start
-
 ```
+
+Quelle: https://docs.metaplex.com/candy-machine-v2/getting-started
