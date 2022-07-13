@@ -1,39 +1,24 @@
 {
-  "name": "rf test #1",
-  "symbol": "RF",
-  "description": "thats a test",
+  "name": "Smart Foxes #1",
+  "symbol": "SF",
+  "description": "99 Foxes explore the space of web 3.0",
   "seller_fee_basis_points": 700,
   "image": "1.png",
-  "external_url": "https://www.youtube.com/c/hashlipsnft",
+  "external_url": "https://twitter.com/FoxesSmart",
   "edition": 1,
+  "creator": "Robin Fuchs",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Black"
+      "value": "Mintgreen"
     },
     {
-      "trait_type": "Eyeball",
-      "value": "White"
+      "trait_type": "Face",
+      "value": "Fox Silver"
     },
     {
-      "trait_type": "Eye color",
-      "value": "Green"
-    },
-    {
-      "trait_type": "Iris",
-      "value": "Medium"
-    },
-    {
-      "trait_type": "Shine",
-      "value": "Shapes"
-    },
-    {
-      "trait_type": "Bottom lid",
-      "value": "High"
-    },
-    {
-      "trait_type": "Top lid",
-      "value": "Low"
+      "trait_type": "Initials",
+      "value": "RF Black"
     }
   ],
   "properties": {
@@ -46,7 +31,7 @@
     "category": "image",
     "creators": [
       {
-        "address": "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+        "address": "6XqGqTfGKJNKuqhLW9bt93LT5684gZoCY45n4PtXGyGX",
         "share": 100
       }
     ]
