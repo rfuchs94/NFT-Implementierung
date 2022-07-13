@@ -61,7 +61,7 @@ Zum Start des Programmes wird folgender Befehl ausgeführt:
 yarn start
 ```
 
-Der Mint wurde anschliessend in einem separaten Repo als Public Mint gehostet über 4EVERLAND unter dieser Domain: [Mint Page der Smart Fox Collection](https://mint-hosting-plpzdw7y-rfuchs94.4everland.app/)
-Repository: 
+Der Mint wurde anschliessend in einem separaten Repo als Public Mint gehostet über 4EVERLAND unter dieser Domain: [Mint Page der Smart Fox Collection](https://mint-hosting-plpzdw7y-rfuchs94.4everland.app/) <br>
+[Repository für das Mint Hosting](https://github.com/rfuchs94/Mint-Hosting)
 
 Quelle: https://docs.metaplex.com/candy-machine-v2/getting-started
