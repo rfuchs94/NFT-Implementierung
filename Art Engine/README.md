@@ -1,4 +1,4 @@
-# NFT Bildgenerierung
+# NFT Bildgenerierung v2
 Erstellung der Bilder und Metadaten für die Smart Foxes Collection als Referenzimplementierung unter der Anwendung der Art Engine von Hashlips (Botha, 2022).
 
 Zuerst wurde aufgrund eines Testsets eine erste Kollektion an 5 NFT Bildern generiert.
